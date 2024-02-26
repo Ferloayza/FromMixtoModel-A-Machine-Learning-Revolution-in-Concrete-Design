@@ -83,7 +83,10 @@ The output data is what civil engineers need to mix the concrete and use it.
 
 ## Technologies Used
 
-[![image]([https://pandao.github.io/editor.md/examples/images/7.jpg](https://github.com/Ferloayza/NeuroMix-Designing-Concrete-with-AI/assets/158125362/26c404ed-0d1a-4ca8-9ad4-124714f3167f))]([https://pandao.github.io/editor.md/examples/images/7.jpg](https://numpy.org/) "Numpy")
+
+
+[![](https://github.com/Ferloayza/NeuroMix-Designing-Concrete-with-AI/assets/158125362/26c404ed-0d1a-4ca8-9ad4-124714f3167f)](https://numpy.org/ "李健首张专辑《似水流年》封面")
+
 
 
 Matplotlib

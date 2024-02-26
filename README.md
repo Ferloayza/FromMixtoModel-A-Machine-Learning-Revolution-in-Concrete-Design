@@ -83,7 +83,8 @@ The output data is what civil engineers need to mix the concrete and use it.
 
 ## Technologies Used
 
-Numpy
+![image](https://github.com/Ferloayza/NeuroMix-Designing-Concrete-with-AI/assets/158125362/26c404ed-0d1a-4ca8-9ad4-124714f3167f)
+
 Matplotlib
 Pandas
 Tensorflow

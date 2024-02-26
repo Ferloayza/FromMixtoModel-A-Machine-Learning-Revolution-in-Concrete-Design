@@ -83,15 +83,16 @@ The output data is what civil engineers need to mix the concrete and use it.
 
 ## Technologies Used
 
+[![](https://github.com/Ferloayza/NeuroMix-Designing-Concrete-with-AI/assets/158125362/26c404ed-0d1a-4ca8-9ad4-124714f3167f)](https://numpy.org/ "Numpy")
 
+[![](https://github.com/Ferloayza/NeuroMix-Designing-Concrete-with-AI/assets/158125362/13404df9-50c1-41e7-948a-554dc152ae3b)](https://matplotlib.org/ "Matplotlib")
 
-[![](https://github.com/Ferloayza/NeuroMix-Designing-Concrete-with-AI/assets/158125362/26c404ed-0d1a-4ca8-9ad4-124714f3167f)](https://numpy.org/ "李健首张专辑《似水流年》封面")
+[![](https://github.com/Ferloayza/NeuroMix-Designing-Concrete-with-AI/assets/158125362/4f6cc6e3-b4c4-491b-b61f-79a86b2ebdaf)](https://pandas.pydata.org/ "Pandas")
 
+[![](https://github.com/Ferloayza/NeuroMix-Designing-Concrete-with-AI/assets/158125362/7c83624b-5c54-4d53-a149-fdf69c1a3dd9)](https://www.tensorflow.org/ "Tensorflow")
 
+[![](https://github.com/Ferloayza/NeuroMix-Designing-Concrete-with-AI/assets/158125362/f5e626e1-ebf3-4eb2-97b1-954c09203acc)](https://seaborn.pydata.org/ "Seaborn")
 
-Matplotlib
-Pandas
-Tensorflow
-Seaborn
-Sklearn
-Keras
+[![](https://github.com/Ferloayza/NeuroMix-Designing-Concrete-with-AI/assets/158125362/c63c8b9b-8ba7-408a-8fc9-69dc30820516)](https://scikit-learn.org/stable/ "Scikit-Learn")
+
+[![](https://github.com/Ferloayza/NeuroMix-Designing-Concrete-with-AI/assets/158125362/ff69e08f-ea41-484f-83d2-39e0f3bbbc3a)](https://keras.io/ "Keras")

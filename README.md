@@ -4,17 +4,17 @@
 
 The project is originally written in Spanish, and the focus is primarily on concrete mix design. However, I am going to explain the process of data science but if you want to check the original project, you can click this [link](https://repositorio.ucsm.edu.pe/handle/20.500.12920/12366 "link") and check it. 
 
-This project is a research that proposes an alternative to conventional concrete mix designs methods using neural networks. Usually there are different methods for designing, and we wanted to create a new method which is basically generated from different methods who have been already made, combine them and find a new alternative.
+This research project introduces an innovative approach to concrete mix design, leveraging neural networks to revolutionize traditional methodologies. Rather than adhering to a singular design method, we amalgamate various existing techniques, harnessing their collective wisdom to forge a novel alternative
 
-You need different data to design concrete, material properties mainly, but methods for concrete design use different properties, and they don´t usually share all the data they need for the design. But this project tries to collect the main data they all share in order to generate a database which contains the main researches about concrete design in the city of Arequipa in Peru.
+To design concrete properly, you need different kinds of data, mainly about the materials you're using. But the methods people use for concrete design often rely on different sets of data, and they don't always share all the information they use. This project is about gathering the most important data that all these methods have in common. We're building a database that brings together the key research findings on concrete design in Arequipa, Peru.
 
 ## Project Scope
 
-Something I want to clarify before continuing is that we made this project very limited in data terms because the research focused mainly on a Civil engineer perspective, so we used just the data we found in the city of Arequipa.
+Before we proceed further, I'd like to clarify that our project deliberately limited its scope in terms of data. It primarily focused on the perspective of civil engineering. Therefore, we only utilized the data available within the city of Arequipa
 
 ## Motivation
 
-Well, you just need to know something about concrete design. You must have different material properties (Concrete, aggregates, water) and with some math process, the design tells you how much cement, water, rocks and sand you have to mix in order to have a specific concrete resistance. Introduce data to obtain data back, that’s why we decided to use neural networks. We thought all that math process different concrete design methods use, could be done by a computer.
+To understand concrete design, you need to grasp various material properties like concrete, aggregates, and water. Through mathematical processes, the design indicates the ideal proportions of cement, water, rocks, and sand required to achieve a specific strength for the concrete. We chose to employ neural networks because they enable us to input data and receive precise design information in return. We believed that the computational tasks involved in the diverse methods of concrete design could be effectively handled by a computer.
 
 ## Process Summary
 

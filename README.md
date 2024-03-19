@@ -1,4 +1,4 @@
-# Neural Networks for concrete mix design
+# From Mix to Model: A Machine Learning Revolution in Concrete Design
 
 ## About the project
 

@@ -2,7 +2,7 @@
 
 ## About the project
 
-The project is originally written in Spanish, and the focus is primarily on concrete mix design. However, I am going to explain the process of data science but if you want to check the original project, you can click this [link](https://repositorio.ucsm.edu.pe/handle/20.500.12920/12366 "link") and check it. 
+The project is originally written in Spanish, and the focus is primarily on concrete mix design. Here I will review a small summary, but the data science detailed process is explained in this [Jupyter Notebook in Kaggle](https://www.kaggle.com/code/fernandoloayzacceres/designing-concrete-using-ann "link")  and if you want to check the original project, you can click this [link](https://repositorio.ucsm.edu.pe/handle/20.500.12920/12366 "link") and check it. 
 
 This research project introduces an innovative approach to concrete mix design, leveraging neural networks to revolutionize traditional methodologies. Rather than adhering to a singular design method, we amalgamate various existing techniques, harnessing their collective wisdom to forge a novel alternative
 
@@ -95,12 +95,49 @@ There are 6 designs we made
 We had two different sets of materials, and for each set, we made 3 concrete designs. 175, 210 and 280 kg/cm2.
 This is for you to understand the input data! All of the data was tested in the lab.
 
-Cement Brand  | Specific Weight of Cement  | Dry Specific Weight of fine Aggregate  | Fineness module of Fine Aggregate  | Dry Specific Weight of coarse Aggregate  | Fineness module of Coarse Aggregate  | Nominal Maximum Size  | Concrete Strength at 28 days  | Slump   
-------------- | -------------- | -------------
-Content Cell  | Content Cell   | -------------dsd
-Content Cell  | Content Cell   | -------------  
+Cement Brand | Specific Weight of Cement | Dry Specific Weight of fine Aggregate | Fineness module of Fine Aggregate | Dry Specific Weight of coarse Aggregate | Fineness module of Coarse Aggregate | Nominal Maximum Size | Concrete Strength at 28 days | Slump
+------------- | -------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
+3 |2850 | 2596.42459 | 2.42 | 2715.18145 | 6.17 | 0.5 | 245 | 4
+3 |2850 | 2596.42459 | 2.42 | 2715.18145 | 6.17 | 0.5 | 294 | 4
+3 |2850 | 2596.42459 | 2.42 | 2715.18145 | 6.17 | 0.5 | 364 | 4
+3 |2850 | 2445.77632 | 3.18 | 2500.30754 | 6.93 | 0.75 | 245 | 4
+3 |2850 | 2445.77632 | 3.18 | 2500.30754 | 6.93 | 0.75 | 294 | 4
+3 |2850 | 2445.77632 | 3.18 | 2500.30754 | 6.93 | 0.75 | 364 | 4
 
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell 
+245, 294 and 364 values correspond to 175, 210 and 280 values respectively, this is due to the security factor you must apply when designing concrete! Number 3 in Cement Brand represents "YURA IP".
+
+And this is the output data:
+
+Design Name | Cement Weight | Fine Aggregate Weight | Coarse Aggregate Weight | Water Weight 
+------------- | -------------- | ------------- | ------------- | ------------- 
+B-175 |408.52 | 833.97 | 769.34 | 233.29
+B-210 |436.17 | 820.14 | 749.34 | 235.80
+B-280 |480.01 | 780.96 | 739.33 | 239.42
+L-175 |351.73 | 650.77 | 1009.54 | 198.08
+L-210 |391.54 | 623.67 | 988.33 | 200.77
+L-280 |440.55 | 587.81 | 968.45 | 205.82
+
+### FIRST CONCLUSION
+
+When designing concrete, there is an unbreakable pattern! To achieve greater concrete strength, a lower water-to-cement ratio is required.
+And our neural network unraveled this pattern all on its own, notice how the water-to-cement ratio decreases as concrete strength requirements increase.
+
+Next, we validated these results in the lab to confirm the functionality of the neural network and ensure that the generated designs were logical and practical.
+Subsequently, the table below presents the concrete strength test results.
+
+Design Name | Concrete Strength at 28 days
+------------- | -------------- 
+B-175 | 185.83
+B-210 | 211.53
+B-280 | 236
+L-175 | 192.27
+L-210 | 215.43
+L-280 | 246.33
+
+### SECOND CONCLUSION
+
+Observe that our concrete designs were engineered to meet a safety factor requirement. What's noteworthy is that the results, consistent with numerous concrete design studies, underscore the necessity of incorporating a safety factor. So we must say, the Neural Network also learned the fact that every design needs security factor.
+
+### THIRD CONCLUSION
+
+Looking at the results, we noticed a pattern: 280 designs fell short, 210 barely made it, and 175 exceeded expectations. This suggests our Neural Network may have focused too much on designs like the 210 ones and not enough on the 175 and 280 cases, which indicates overfitting.
